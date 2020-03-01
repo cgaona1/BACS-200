@@ -1,0 +1,12 @@
+.body{
+    font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.head{
+    color: darkorange;
+    background-color: slategrey;
+    border: 1px outset;
+    border-color: lightgray black black lightgray;
+    box-shadow: 10px 5px 5px darkgrey;
+    display: flex;
+    justify-content: center;
+}
