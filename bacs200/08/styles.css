@@ -1,0 +1,71 @@
+html, body{
+    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+/* ----------------------------------------------- */
+/*header styles*/
+header{
+    background-color: black;
+}
+.header-box{
+    background-color: black;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.image-header-box{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25%;
+}
+.header-name{
+    flex: 1 0 auto;
+    color: white;
+}
+.menu-header-items{
+    justify-content: flex-end;
+    margin: auto;
+}
+
+/* ----------------------------------------------- */
+/*nav styles*/
+/
+nav{
+    font-family: sans-serif;
+}
+
+
+/* ----------------------------------------------- */
+/* IDs */
+
+#main-menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#main-menu ul li{
+    display: inline;
+    padding: 1em;
+    margin: 0px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+#main-menu ul li a{
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}

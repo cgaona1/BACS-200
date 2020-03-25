@@ -1,12 +1,48 @@
-.body{
-    font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+.header-section{
+    background-color: black;
 }
-.head{
-    color: darkorange;
-    background-color: slategrey;
-    border: 1px outset;
-    border-color: lightgray black black lightgray;
-    box-shadow: 10px 5px 5px darkgrey;
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
     display: flex;
-    justify-content: center;
+}
+.image-box{
+    flex: 1 1 auto;
+}
+.menu-items{
+    justify-content: flex-end;
+}
+
+
+nav {
+    font-family: sans-serif;
+}
+
+
+/* ----------------------------------------------- */
+/* IDs */
+
+#main-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#main-menu ul li {
+    display: inline;
+    padding: 1em;
+    margin: 0px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#main-menu ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
