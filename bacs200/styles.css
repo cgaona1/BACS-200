@@ -1,45 +1,128 @@
-.header-section{
+html, body{
+    font: 15px "Open Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    display: block;
+    position: relative;
+}
+/* ----------------------------------------------- */
+/*header styles*/
+header{
     background-color: black;
 }
-.container{
-    margin-left: auto;
-    margin-right: auto;
-}
-.box{
+.header-box{
+    background-color: black;
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.image-box{
-    flex: 1 1 auto;
+.image-header-box{
+    display: flex;
+    justify-content: center;
 }
-.menu-items{
+img{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25%;
+}
+.header-name{
+    flex: 1 0 auto;
+    color: white;
+}
+.menu-header-items{
     justify-content: flex-end;
+    margin: auto;
 }
 
+/* ----------------------------------------------- */
+/*section styles*/
+section{
+    display: block;
+    color: white;
+    background-color: #3b5eaf;
+    padding: 50px 0;
+}
+.container{
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
-nav {
-    font-family: sans-serif;
+/* ----------------------------------------------- */
+/*main styles*/
+main{
+    display: block;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.text-box{
+    padding: 25px;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.6);
+}
+h3{
+    font-family: "Open Sans", sans-serif;
+    color: #1b4962;
+    line-height: 1.2em;
+    font-weight: 800;
+}
+
+/* ----------------------------------------------- */
+/*footer styles*/
+footer{
+    background: #000;
+    overflow: hidden!important;
+    margin-top: 50px;
+    padding-bottom: 2.5rem;
+}
+.footer-bottom{
+    position: absolute;
+    text-align: center;
+    background: #dfdfdf;
+    width: 100%;
+    bottom: 0px;
+}
+.footer-bottom p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* ----------------------------------------------- */
+/*nav styles*/
+/
+nav{
+    font-family: "Open Sans", sans-serif;
 }
 
 
 /* ----------------------------------------------- */
 /* IDs */
 
-#main-menu ul {
+#main-menu ul{
     list-style-type: none;
     text-align: center;
 }
 
-#main-menu ul li {
+#main-menu ul li{
     display: inline;
     padding: 1em;
     margin: 0px;
     width: 200px;
     background-color: black;
     color: white;
-    box-shadow: 2px 2px 5px gray;
 }
 
-#main-menu ul li a {
+#main-menu ul li a{
     color: white;
     font-weight: bold;
     padding: 0;

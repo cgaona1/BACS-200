@@ -1,9 +1,11 @@
 html, body{
-    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font: 15px "Open Sans", sans-serif;
     height: 100%;
     width: 100%;
     overflow: hidden;
     margin: 0px;
+    display: block;
+    position: relative;
 }
 /* ----------------------------------------------- */
 /*header styles*/
@@ -15,12 +17,10 @@ header{
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    
 }
 .image-header-box{
     display: flex;
     justify-content: center;
-
 }
 img{
     display: flex;
@@ -38,10 +38,64 @@ img{
 }
 
 /* ----------------------------------------------- */
+/*section styles*/
+section{
+    display: block;
+    color: white;
+    background-color: #3b5eaf;
+    padding: 50px 0;
+}
+.container{
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* ----------------------------------------------- */
+/*main styles*/
+main{
+    display: block;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.text-box{
+    padding: 25px;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.6);
+    position: relative;
+}
+
+/* ----------------------------------------------- */
+/*footer styles*/
+footer{
+    background: #000;
+    clear: both;
+    margin-top: 50px;
+}
+.footer-bottom{
+    position: absolute;
+    text-align: center;
+    background: #dfdfdf;
+    width: 100%;
+    bottom: 0;
+}
+.footer-bottom p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* ----------------------------------------------- */
 /*nav styles*/
 /
 nav{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 
